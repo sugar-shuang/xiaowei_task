@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+div{
+    background-color: white;
+    border: 1px solid #999;
+}
+.content{
+    margin: 20px 160px 20px 240px;
+    padding: 20px;
+}
+.aside-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    margin: 20px;
+}
+.aside-right{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    top: 0;
+    width: 120px;
+}
+.img-logo-right,.img-logo-left{
+    border: none;
+}
+.img-logo-left{
+    float: left;
+}
+img{
+    margin: 20px;
+    border: 1px solid #999;
+}
